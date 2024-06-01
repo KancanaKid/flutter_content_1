@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_content_1/screens/form/form_layout.dart';
 import 'package:flutter_content_1/screens/layouts/center_layout.dart';
 import 'package:flutter_content_1/screens/layouts/column_layout.dart';
 import 'package:flutter_content_1/screens/layouts/row_layout.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const RowLayout());
+        home: const FormLayout());
   }
 }
 
